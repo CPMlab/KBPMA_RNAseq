@@ -14,4 +14,19 @@ Create conda environment.
 ```
 conda env create -f environment.yaml
 ```
+# Usage
+After finishing the setup, inside the repo's base directory with Snakefile do a dry run to check for errors
+
+```
+snakemake -n
+````
+Once you're ready to run the analysis type
+
+```
+snakemake -j [cores]
+```
+
+
+
+
 
