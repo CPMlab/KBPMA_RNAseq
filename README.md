@@ -25,11 +25,11 @@ Create conda environment.
 conda env create -f environment.yaml
 ```
 # Usage
-After finishing the setup, inside the repo's base directory with Snakefile do a dry run to check for errors
-
 In RNA-seq data processing workflows, the number of threads (or CPU cores) used for various tools can have a significant impact on the speed and efficiency of the analysis. This can be controlled by adjusting the threads option in the config.yaml file. 
 
 It is recommended that the number of cores allocated to Snakemake (--cores option) is higher than the number of threads specified in the config.yaml file. This ensures that Snakemake has enough resources to handle multiple rules or jobs in parallel, thus improving overall performance.
+
+After finishing the setup, inside the repo's base directory with Snakefile do a dry run to check for errors
 ```
 snakemake -n
 ````
