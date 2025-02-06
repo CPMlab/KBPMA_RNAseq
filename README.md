@@ -81,7 +81,8 @@ After finishing the setup, inside the repo's base directory with Snakefile do a 
 ```
 snakemake -n
 ````
-Once you're ready to run the analysis type```bash
+Once you're ready to run the analysis type
+```bash
 snakemake --cores <num_cores>
 ```
 Replace `<num_cores>` with the number of available CPU cores.
