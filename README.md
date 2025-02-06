@@ -1,6 +1,8 @@
 # Snakemake-RNAseq
 
 This is a snakemake pipeline for RNA sequencing data analysis for LAIDD project
+## Pipeline Components
+![image](https://github.com/user-attachments/assets/74d10d59-1b0f-4d77-933e-df27342725b5)
 
 # References
 
